@@ -24,3 +24,6 @@ function animacao(elemento, text, intervalo) {
 }
 
 animacao(elemento, text, intervalo);
+
+
+  
