@@ -163,7 +163,7 @@ section.experiencia p{
 }
 
 section.experiencia h1{
-font-size: 3rem;
+    font-size: 3rem;
 }
 
 section.experiencia span{
@@ -177,6 +177,11 @@ section.experiencia span{
 .experiencia .flex img{
    padding: 0 10px;
     width: 3rem;
+}
+
+.experiencia .flex img:hover{
+    transform: scale(1.5);
+    transition: 0.2s;
 }
 
 /*Projetos ESTILO*/
