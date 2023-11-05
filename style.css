@@ -38,9 +38,14 @@ header > .interface{
     font-family: 'Poppins', sans-serif;
 }
 
+.interface .logo img{
+    width: 65%;
+}
+
 header a{
     color: #ffffff;
     text-decoration: none;
+    font-size: 20px;
 }
 
 header nav ul{
