@@ -29,6 +29,7 @@ header{
     padding: 40px 4%;
     backdrop-filter: blur(15px);
     position: fixed;
+    height: 2%;
 }
 
 header > .interface{
@@ -152,9 +153,9 @@ section.topo_do_site .flex{
 /*Experiência ESTILO*/
 
 section.experiencia{
-    padding: 20rem 6%;
+    padding: 10rem 6%;
     color: #ffffff;
-    font-family:'Poppins', sans-serif ;
+    font-family:'Poppins', sans-serif;
 }
 
 section.experiencia p{
@@ -234,9 +235,9 @@ section.Projetos .flex{
 
 .TCC{
     display: flex;
-    padding: 40px 6%;
+    padding: 90px 6%;
     color: #ffffff;
-    font-family:'Poppins', sans-serif ;
+    font-family:'Poppins', sans-serif;
 }
 
 section.TCC .flow1{
