@@ -21,7 +21,7 @@ body{
     display: flex;
 }
 
-/*Estilo cabeÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§alho*/
+/*Estilo cabecalho*/
 
 header{
     z-index: 1;
@@ -262,4 +262,119 @@ section.TCC .organizaçao:hover,.minhaparte:hover,.projeto:hover,.resultado:hove
 section.TCC .resultado a{
     text-decoration: none;
     color:#477c89 ;
+}
+
+
+/*Responsividade 737px*/
+
+@media screen and (max-width:1020px) {
+    
+    /*Header*/
+    header{
+        width: 92%;
+        margin-top: -1px;
+    }
+
+    .menu a{
+        display: none;
+    }
+
+    /*Topo do site*/
+    .img_topo_site img{
+        display:none;
+    }
+
+    .btns_contato{
+        margin-top: 2rem;
+    }
+
+    .topo-do-site span{
+        font-size: 23px;
+    }
+
+    .txt_topo_site .nome{
+        font-size: 37px;
+    }
+
+    .txt_topo_site p,h2{
+        font-size: 19px;
+    }
+
+    section.topo-do-site{
+        padding: 20% 5%;
+    }
+
+    .btns_contato a img{
+        padding-top:60px;
+        padding-left: 25px;
+        width: 50px;
+    }
+
+    /*ESTILO Experiência*/
+
+    section.experiencia p{
+        padding: 6%;
+        font-size: 18px;
+    }
+
+    .experiencia .flex{
+        display:flow-root;
+        padding: 70px 7rem; 
+    }
+
+    .experiencia .flex img{
+        width:6rem ;
+        padding-top:2rem
+    }
+
+    /*ESTILO Projetos*/
+
+    .Projetos h1{
+        font-size: 2.2rem;
+    }
+
+    .Projetos h2,p{
+        font-size: 2rem;
+    }
+
+    .Projetos .flex{
+        display: block;
+    }
+
+    .Projetos .projeto{
+        margin-left: 5%;
+        width: 65%;
+        padding-bottom: 4rem;
+        margin-bottom: 5rem;;
+    }
+
+    .Projetos .projeto img {
+        width: 35%;
+    }
+
+    .Projetos .Github{
+        width: 4rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+    }
+
+    /*ESTILO TCC*/
+
+    section.TCC h2{
+        font-size: 1.4rem;
+    }
+
+    .TCC .flex{
+        display: block;
+    }
+
+    .TCC .flex p{
+        font-size: 1rem;
+    }
+
+    .TCC .resultado a{
+        font-size: 1.2rem;
+    }
+
+    
 }
