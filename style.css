@@ -384,3 +384,10 @@ section.TCC .resultado a{
 
     
 }
+
+@media screen and (max-width:379px) {
+    .experiencia .flex{
+        padding: 70px 6.6rem;
+    }
+}
+
