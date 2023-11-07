@@ -291,15 +291,15 @@ section.TCC .resultado a{
     }
 
     .topo-do-site span{
-        font-size: 23px;
+        font-size: 27px;
     }
 
     .txt_topo_site .nome{
-        font-size: 37px;
+        font-size: 46px;
     }
 
     .txt_topo_site p,h2{
-        font-size: 19px;
+        font-size: 22px;
     }
 
     section.topo-do-site{
@@ -316,12 +316,12 @@ section.TCC .resultado a{
 
     section.experiencia p{
         padding: 6%;
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .experiencia .flex{
         display:flow-root;
-        padding: 70px 7rem; 
+        padding: 70px 9.6rem;
     }
 
     .experiencia .flex img{
@@ -371,7 +371,11 @@ section.TCC .resultado a{
     }
 
     .TCC .flex p{
-        font-size: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .TCC .flex h3{
+        font-size:2rem;
     }
 
     .TCC .resultado a{
