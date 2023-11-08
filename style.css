@@ -170,6 +170,12 @@ section.topo_do_site .flex{
     
 }
 
+.btns_contato .link_curriculo{
+    text-decoration: none;
+    color:#04080f;
+
+}
+
 .btns_contato button p{
     font-size:25px;
 }
