@@ -149,6 +149,32 @@ section.topo_do_site .flex{
     transition: 0.2s;
 }
 
+.btns_contato button{
+    margin-top:1rem;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    background-color:#477c89;
+    padding: 6px;
+}
+
+.btns_contato button:hover{
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.btns_contato .img_curriculo{
+    padding: 0;
+    width: 17%;
+    background: transparent;
+    
+}
+
+.btns_contato button p{
+    font-size:25px;
+}
+
+
 
 /*Experiência ESTILO*/
 
@@ -240,9 +266,6 @@ section.Projetos .flex{
     font-family:'Poppins', sans-serif;
 }
 
-section.TCC .flow1{
-    /* margin-top:2rem; */
-}
 
 section.TCC h2{
     font-size: 2rem;
@@ -312,6 +335,10 @@ section.TCC .resultado a{
         width: 50px;
     }
 
+    .btns_contato button{
+        margin-left:1.4rem;
+    }
+   
     /*ESTILO Experiência*/
 
     section.experiencia p{
@@ -384,10 +411,3 @@ section.TCC .resultado a{
 
     
 }
-
-@media screen and (max-width:379px) {
-    .experiencia .flex{
-        padding: 70px 6.6rem;
-    }
-}
-
