@@ -182,7 +182,7 @@ section.topo_do_site .flex{
 
 
 
-/*Experiência ESTILO*/
+/*ExperiÃªncia ESTILO*/
 
 section.experiencia{
     padding: 10rem 6%;
@@ -212,7 +212,7 @@ section.experiencia span{
     width: 3rem;
 }
 
-.experiencia .flex img:hover{
+.experiencia img:hover{
     transform: scale(1.5);
     transition: 0.2s;
 }
@@ -230,21 +230,22 @@ section.Projetos .flex{
     padding: 3rem ;
 }
 
-.Projetos .projeto{
+section.Projetos .flex .projetos{
+    padding: 40px;
+    margin: 2rem;
+    border-radius:20px;
+    box-shadow: 0 0 8px#477c89;
     text-align: center;
     margin-left: 8%;
-    width: 8%;
-    justify-content: center;
-    display: inline-flex;
     border: 1px solid #00000036;
     background-color: rgb(0 0 0 / 32%);
 }
 
-.Projetos .projeto img {
-    width: 75%;
+.Projetos .projetos img {
+    width: 65%;
 }
 
-.Projetos .projeto a{
+.Projetos .projetos a{
     font-size: 1rem;
     text-decoration: none;
     color:#477c89 ;
@@ -279,9 +280,13 @@ section.TCC h2{
 
 section.TCC .organizaçao,.minhaparte,.projeto,.resultado{
    padding: 40px;
-   margin: 2rem;
+   margin:1rem;
    border-radius:20px;
    box-shadow: 0 0 8px#477c89;
+}
+
+section.TCC .minhaparte{
+    margin-top: 2.5rem;
 }
 
 section.TCC .organizaçao:hover,.minhaparte:hover,.projeto:hover,.resultado:hover{
@@ -345,7 +350,7 @@ section.TCC .resultado a{
         margin-left:1.4rem;
     }
    
-    /*ESTILO Experiência*/
+    /*ESTILO ExperiÃªncia*/
 
     section.experiencia p{
         padding: 6%;
@@ -376,14 +381,14 @@ section.TCC .resultado a{
         display: block;
     }
 
-    .Projetos .projeto{
+    .Projetos .projetos{
         margin-left: 5%;
         width: 65%;
         padding-bottom: 4rem;
         margin-bottom: 5rem;;
     }
 
-    .Projetos .projeto img {
+    section.Projetos .flex .projetos img{
         width: 35%;
     }
 
@@ -414,6 +419,7 @@ section.TCC .resultado a{
     .TCC .resultado a{
         font-size: 1.2rem;
     }
+
 
     
 }
