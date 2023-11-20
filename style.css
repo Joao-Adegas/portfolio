@@ -241,6 +241,13 @@ section.Projetos .flex .projetos{
     background-color: rgb(0 0 0 / 32%);
 }
 
+section.Projetos .flex .projetos:hover{
+    transform: scale(1.05);
+    /* box-shadow: 0 0  8px#477c89; */
+    transition: 0.2s;
+
+}
+
 .Projetos .projetos img {
     width: 65%;
 }
