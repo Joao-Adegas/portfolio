@@ -421,12 +421,12 @@ class VanillaTilt {
   extendSettings(settings) {
     let defaultSettings = {
       reverse: false,
-      max: 8,
+      max:20,
       startX: 0,
       startY: 0,
-      perspective: 1000,
+      perspective:1000,
       easing: "cubic-bezier(.03,.98,.52,.99)",
-      scale: 1,
+      scale: 1.1,
       speed: 300,
       transition: true,
       axis: null,
@@ -442,7 +442,7 @@ class VanillaTilt {
       gyroscopeMaxAngleX: 45,
       gyroscopeMinAngleY: -45,
       gyroscopeMaxAngleY: 45,
-      gyroscopeSamples: 10
+      gyroscopeSamples: -45
     };
 
     let newSettings = {};
