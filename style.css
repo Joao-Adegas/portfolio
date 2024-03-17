@@ -979,4 +979,32 @@ section.TCC .resultado a{
             }
         }
     }
+
+    /*Estilo Para Dispositivos IOS*/
+
+    @media only screen and (max-device-width: 480px) and (orientation: portrait) {
+        .txt_topo_site .nome {
+            font-size: 36px;
+        }
+
+        section.objetivo img {
+            margin-top: 125%;
+        }
+
+        .experiencia img {
+            padding: 40px 21px;
+        }
+
+        section.objetivo h2 {
+            font-size: 48px;
+            padding: 5% 6%;
+            padding-top: 16%;
+        }
+
+        section.TCC h2 {
+            font-size: 30px;
+            padding-top: 30%;
+        }
+
+    }
 }
