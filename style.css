@@ -321,7 +321,7 @@ section.experiencia .barras{
     0%{
         width:0%;
     }
-    10%{
+    100%{
         width:70%;
     }
 }
