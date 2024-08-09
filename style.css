@@ -257,7 +257,7 @@ section.experiencia span{
     display: flex;
     grid-template: 1;
     flex-wrap: wrap;
-    justify-content: space-between;
+
 }
 
 .experiencia img{
