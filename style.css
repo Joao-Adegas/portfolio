@@ -755,7 +755,9 @@ section.TCC .resultado a{
         display:flow-root;
         padding: 70px 9.6rem;
     }
-
+    .experiencia .skill {
+        justify-content: space-around;
+    }
     .experiencia .flex img{
         width:6rem ;
         padding-top:2rem
