@@ -249,6 +249,10 @@ section.experiencia span{
 .experiencia {
     padding: 0 65px ;
 }
+.experiencia .skill {
+    display: flex;
+    flex-wrap: wrap;
+}
 .experiencia .skill{
     display: flex;
     grid-template: 1;
