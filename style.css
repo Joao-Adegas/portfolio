@@ -526,7 +526,7 @@ section.Projetos .flex .projetos:hover{
 
 .Projetos .ButtonGithub {
     color: var(--AzulClaro);
-    font-size: 1.24rem;
+    font-size: 2rem;
     text-decoration: none;
     /* color:#477c89; */
     width: 50px;
@@ -595,7 +595,7 @@ section.objetivo h2{
     text-align: start;
     /* padding-top: 15%; */
     /* padding-right: 17%; */
-    padding: 15% 0% 5% 47%;
+    padding: 19% 0% 5% 47%;
 }
 
 section.objetivo p{
