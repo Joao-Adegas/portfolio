@@ -238,7 +238,8 @@ section.experiencia p{
 }
 
 section.experiencia h1{
-    font-size: 1.5rem;
+    font-size: 45px;
+    padding: 0vw 0vw 0vw 1.9vw;
 }
 
 section.experiencia span{
@@ -776,6 +777,11 @@ section.TCC .resultado a{
         width:6rem ;
         padding-top:2rem
     }
+
+    section.experiencia h1{
+    font-size: 1.5rem;
+    padding: 0vw 0vw 0vw 6vw;
+    }
    
     /*ESTILO projetos*/
 
@@ -862,7 +868,7 @@ img {
         padding: 6vw 8vw;
     }
 
-h2 {}
+
 
      section.objetivo p{
         padding: 0vw 16vw 0vw 13vw;
@@ -926,6 +932,7 @@ h2 {}
 
         .txt_topo_site p, h2 {
             font-size: 1rem;
+            padding: 0vw 0vw 0vw 6vw;
         }
 
         .topo-do-site .backend {
@@ -938,6 +945,10 @@ h2 {}
 
         .experiencia img {
             padding: 40px 23px;
+        }
+
+        .section.experiencia h1{
+            padding:0vw 0vw 0vw 0vw;
         }
 
         section.Projetos .flex .projetos {
@@ -1020,6 +1031,7 @@ h2 {}
 
     @media only screen and (max-device-width: 480px) and (orientation: portrait) {
         .txt_topo_site .nome {
+            padding: 0vw 0vw 0vw 0vw;
             font-size: 1.8rem;
         }
 
