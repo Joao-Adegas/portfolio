@@ -1020,7 +1020,7 @@ h2 {}
 
     @media only screen and (max-device-width: 480px) and (orientation: portrait) {
         .txt_topo_site .nome {
-            font-size: 2rem;
+            font-size: 1.8rem;
         }
 
         section.objetivo img {
