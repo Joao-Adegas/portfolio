@@ -140,8 +140,8 @@ section.topo_do_site .flex{
 }
 
 .txt_topo_site .barra{
-    font-size: 62px;
-    animation: piscar 2s step-start infinite ;
+    font-size: 5vw;
+    animation: piscar 2s step-start infinite;
 }
 
 @keyframes piscar {
@@ -164,7 +164,7 @@ section.topo_do_site .flex{
     /* margin-left: 0rem; */
     /* margin-top: -5rem; */
     width: 30vw;
-    border-radius: 5%;
+    /* border-radius: 5%; */
     filter: brightness(70%);
 }
 
@@ -392,7 +392,8 @@ section.experiencia .barras{
 }
 
 #imgpy{
-    width: 73px;
+    /* width: 3rem; */
+    /* width: 73px; */
 }
 
 @keyframes py{
@@ -607,18 +608,12 @@ section.objetivo h2{
 }
 
 section.objetivo p{
-    
-display: block;
-    
-color: #ffffff;
-    
-font-size: 1.4rem;
-    
-font-family: 'Poppins';
-    
-/* text-align: left; */
-    
-padding: 5vw 16vw 0% 60.2vw;
+    display: block;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-family: 'Poppins';
+    /* text-align: left; */
+    padding: 5vw 16vw 0% 60.2vw;
 }
 
 section.objetivo img{
@@ -717,6 +712,7 @@ section.TCC .resultado a{
     /*Topo do site*/
 
     .img_topo_site img{
+        padding: 0vw 0vw 0vw 28vw;
         width: 80vw;
     }
     .flex{
@@ -728,15 +724,15 @@ section.TCC .resultado a{
     }
 
     .topo-do-site .backend{
-        font-size: 40px;
+        font-size: 1rem;
     }
 
     .txt_topo_site .nome{
-        font-size: 54px;
+        font-size: 2.9rem;
     }
 
     .txt_topo_site p,h2{
-        font-size: 29px;
+        font-size: 1rem;
     }
 
     section.topo-do-site{
@@ -753,12 +749,16 @@ section.TCC .resultado a{
         margin-left:1.4rem;
     }
 
+    .topo_do_site .barra{
+        font-size:1rem;
+    }
+
     /*ESTILO experiÃªncia */
 
 
     section.experiencia p{
         padding: 6%;
-        font-size: 29px;
+        font-size: 1rem;
     }
 
     .experiencia .flex{
@@ -767,6 +767,10 @@ section.TCC .resultado a{
     }
     .experiencia .skill {
         justify-content: space-around;
+    }
+
+    .experiencia .flex .linguagems img{
+        
     }
     .experiencia .flex img{
         width:6rem ;
@@ -798,6 +802,7 @@ section.TCC .resultado a{
     }
 
     .Projetos h1{
+        padding: 24vw 0vw 0vw 0vw;
         font-size: 2.5rem;
     }
 
@@ -860,14 +865,15 @@ img {
 h2 {}
 
      section.objetivo p{
-        padding: 0vw 16vw 0vw 6%;
+        padding: 0vw 16vw 0vw 13vw;
+        font-size: 1rem;
     }
 
 
     /*ESTILO TCC*/
 
      section.TCC{
-        padding: 0vw 0vw 0vw 0vw;
+        padding: 0vw 9vw 0vw 9vw;
     }
 
     section.TCC h2{
@@ -1023,20 +1029,21 @@ h2 {}
         }
 
         .experiencia img {
+            width: 3rem;
             padding: 40px 21px;
             grid-template: 1;
         }
 
         section.objetivo h2 {
             font-size: 2.5rem;
-            padding: 0% 0% 4vw 7%;
+            padding: 13vw 0vw 5vw 13vw;
             /* padding-bottom: 128vw; */
         }
 
         section.TCC h2 {
             font-size: 2rem;
             /* padding-top: 30%; */
-            padding: 0vw 5vw 4vw 5vw;
+            padding: 22vw 5vw 4vw 5vw;
         }
 
     }
