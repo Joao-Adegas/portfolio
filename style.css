@@ -161,9 +161,9 @@ section.topo_do_site .flex{
 }
 
 .img_topo_site img{
-    margin-left: 0rem;
-    margin-top: -5rem;
-    width: 30rem;
+    /* margin-left: 0rem; */
+    /* margin-top: -5rem; */
+    width: 30vw;
     border-radius: 5%;
     filter: brightness(70%);
 }
@@ -715,6 +715,10 @@ section.TCC .resultado a{
     }
 
     /*Topo do site*/
+
+    .img_topo_site img{
+        width: 80vw;
+    }
     .flex{
         flex-direction: column-reverse;
     }
@@ -736,7 +740,7 @@ section.TCC .resultado a{
     }
 
     section.topo-do-site{
-        padding: 20% 5%;
+        padding: 19% 5%;
     }
 
     .btns_contato a img{
@@ -845,7 +849,9 @@ section.TCC .resultado a{
         border-radios: 20vw;
     }
 
-img {}
+img {
+    width: 80vw;
+}
 
     section.objetivo h2{
         padding: 6vw 8vw;
