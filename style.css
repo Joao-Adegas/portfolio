@@ -615,13 +615,13 @@ section.objetivo p{
     padding: 5vw 16vw 0% 60.2vw;
 }
 
-section.objetivo img{
+section.objetivo img {
     /* padding: 0vw 0vw 0vw 0vw; */
     /* display: none; */
     display: flex;
-    width: 38vw;
+    width: 40vw;
     position: absolute;
-    top: 174vw;
+    top: 197vw;
     left: 13%;
     /* margin-top: 10%; */
     border-radius: 6%;
