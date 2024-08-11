@@ -1031,7 +1031,7 @@ img {
     @media only screen and (max-device-width: 480px) and (orientation: portrait) {
         .txt_topo_site .nome {
             padding: 0vw 0vw 0vw 0vw;
-            font-size: 1.8rem;
+            font-size: 1.7rem;
         }
 
         section.objetivo img {
