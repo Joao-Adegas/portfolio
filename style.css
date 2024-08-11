@@ -664,8 +664,9 @@ section.TCC .organizaÃ§ao,.minhaparte,.projeto,.resultado{
    font-size: 1.2rem;
 }
 
-section.TCC .minhaparte{
-    margin-top: 2.5rem;
+section.TCC .minhaparte {
+    padding: 42px 25px 26px 25px;
+    margin-top: 2.6rem;
 }
 
 section.TCC .organizaÃ§ao:hover,.minhaparte:hover,.projeto:hover,.resultado:hover{
