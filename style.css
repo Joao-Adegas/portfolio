@@ -592,9 +592,7 @@ section.Projetos .flex .carrocel::-webkit-scrollbar-thumb{
 
 /*Objetivo estilo*/
 
-.interface_objetivo{
-display: flex;
-}
+.interface_objetivo{width: auto;/* display: flex; */height: 30vw;}
 
 section.objetivo h2{
   
@@ -618,15 +616,15 @@ section.objetivo p{
 }
 
 section.objetivo img{
-    padding: 8vw 0% 0% 0%;
-    display: none;
+    /* padding: 0vw 0vw 0vw 0vw; */
+    /* display: none; */
     display: flex;
-    width: 38%;
+    width: 38vw;
     position: absolute;
-    /* top: 1px; */
-    left: 8%;
+    top: 186vw;
+    left: 13%;
     /* margin-top: 10%; */
-    border-radius: 20px;
+    border-radius: 6%;
 }
 
 section.objetivo img:hover{
@@ -814,6 +812,7 @@ section.TCC .resultado a{
 
     .Projetos h2,p{
         font-size: 1rem;
+        padding: 3vw 0vw 0vw 0vw;
     }
 
     .Projetos .flex{
@@ -1022,7 +1021,7 @@ img {
         @media screen and (max-width:360px) {
           
             section.objetivo img {
-                margin-top: 100%;
+                /* margin-top: 100%; */
             }
         }
     }
@@ -1048,14 +1047,14 @@ img {
 
         section.objetivo h2 {
             font-size: 1.5rem;
-            padding: 13vw 0vw 5vw 13vw;
+            padding: 14vw 0vw 5vw 13vw;
             /* padding-bottom: 128vw; */
         }
 
         section.TCC h2 {
             font-size: 1.5rem;
             /* padding-top: 30%; */
-            padding: 22vw 5vw 4vw 5vw;
+            padding: 59vw 5vw 4vw 5vw;
         }
 
     }
