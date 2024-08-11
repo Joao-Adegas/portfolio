@@ -757,7 +757,7 @@ section.TCC .resultado a{
 
 
     section.experiencia p{
-        padding: 6%;
+        padding: 9vw 0vw 0vw 0vw;
         font-size: 1rem;
     }
 
@@ -779,7 +779,7 @@ section.TCC .resultado a{
 
     section.experiencia h1{
     font-size: 1.5rem;
-    padding: 34vw 0vw 0vw 6vw;
+    padding: 34vw 0vw 0vw 0vw;
     }
 
     section.experiencia .barras{
@@ -875,7 +875,7 @@ img {
 
 
      section.objetivo p{
-        padding: 0vw 16vw 0vw 13vw;
+        padding: 0vw 4vw 0vw 4vw;
         font-size: 1rem;
     }
 
@@ -883,7 +883,7 @@ img {
     /*ESTILO TCC*/
 
      section.TCC{
-        padding: 0vw 9vw 0vw 9vw;
+        padding: 0vw 0vw 0vw 0vw;
     }
 
     section.TCC h2{
@@ -1052,14 +1052,14 @@ img {
 
         section.objetivo h2 {
             font-size: 1.5rem;
-            padding: 26vw 0vw 5vw 13vw;
+            padding: 25vw 0vw 4vw 4vw;
             /* padding-bottom: 128vw; */
         }
 
         section.TCC h2 {
             font-size: 1.5rem;
             /* padding-top: 30%; */
-            padding: 111vw 5vw 4vw 5vw;
+            padding: 85vw 5vw 4vw 5vw;
         }
 
     }
