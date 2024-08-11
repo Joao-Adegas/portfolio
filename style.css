@@ -285,7 +285,7 @@ section.experiencia .barras{
 }
 
 .barras > span{
-    height:15px ;
+    height: 16px;
     background:#0551c4;
     position: absolute;
 }
@@ -420,7 +420,7 @@ section.experiencia .barras{
     }
 }
 .mysql{
-    width: 90%;
+    width: 79%;
     animation: mysql 3s;
 }
 
@@ -696,7 +696,7 @@ section.TCC .resultado a{
     }
 }
 
-@media screen and (max-width:1020px) {
+@media screen and (max-width: 1020px) {
     
     /*Header*/
     header{
@@ -779,6 +779,10 @@ section.TCC .resultado a{
     section.experiencia h1{
     font-size: 1.5rem;
     padding: 34vw 0vw 0vw 6vw;
+    }
+
+    section.experiencia .barras{
+        height: 8px;
     }
    
     /*ESTILO projetos*/
@@ -1040,7 +1044,7 @@ img {
         }
 
         .experiencia img {
-            width: 3rem;
+            width: 2rem;
             padding: 40px 21px;
             grid-template: 1;
         }
