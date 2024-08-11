@@ -657,7 +657,7 @@ section.TCC .projeto{
 }
 
 section.TCC .organizaÃ§ao,.minhaparte,.projeto,.resultado{
-   padding: 40px;
+   padding: 25px;
    margin:1rem;
    border-radius:20px;
    box-shadow: 0 0 8px var(--AzulClaro);
@@ -902,7 +902,7 @@ img {
     }
 
     .TCC .resultado a{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     @media screen and (max-width:695px) {
