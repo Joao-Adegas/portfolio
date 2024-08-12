@@ -140,7 +140,7 @@ section.topo_do_site .flex{
 }
 
 .txt_topo_site .barra{
-    font-size: 5vw;
+    font-size: 4rem;
     animation: piscar 2s step-start infinite;
 }
 
@@ -163,9 +163,10 @@ section.topo_do_site .flex{
 .img_topo_site img{
     /* margin-left: 0rem; */
     /* margin-top: -5rem; */
-    width: 30vw;
+    /* width: 30vw; */
     /* border-radius: 5%; */
     filter: brightness(70%);
+    max-width: 90%;
 }
 
 .img_topo_site img:hover{
@@ -227,7 +228,7 @@ section.topo_do_site .flex{
 /*ExperiÃªncia  ESTILO*/
 
 section.experiencia{
-    padding: 0rem 6%;
+    padding: 13rem 6%;
     color: #ffffff;
     font-family:'Poppins', sans-serif;
 }
@@ -239,7 +240,7 @@ section.experiencia p{
 
 section.experiencia h1{
     font-size: 45px;
-    padding: 0vw 0vw 0vw 1.9vw;
+    padding: 0vw 0vw 0vw 0;
 }
 
 section.experiencia span{
@@ -592,18 +593,25 @@ section.Projetos .flex .carrocel::-webkit-scrollbar-thumb{
 
 /*Objetivo estilo*/
 
-.interface_objetivo{width: auto;/* display: flex; */height: 30vw;}
+.interface_objetivo{width: auto;/* display: flex; */height: auto;}
 
 section.objetivo h2{
   
-    color: #ffffff;
-    /* justify-content: end; */
-    font-size: 50px;
-    font-family: 'Poppins', sans-serif;
-    text-align: start;
-    /* padding-top: 15%; */
-    /* padding-right: 17%; */
-    padding: 7vw 0vw 0vw 60vw;
+color: #ffffff;
+  
+/* justify-content: end; */
+  
+font-size: 50px;
+  
+font-family: 'Poppins', sans-serif;
+  
+text-align: start;
+  
+/* padding-top: 15%; */
+  
+/* padding-right: 17%; */
+  
+padding: 0vw 0vw 0vw 60vw;
 }
 
 section.objetivo p{
@@ -612,19 +620,21 @@ section.objetivo p{
     font-size: 1.4rem;
     font-family: 'Poppins';
     /* text-align: left; */
-    padding: 5vw 16vw 0% 60.2vw;
+    padding: 1vw 37vw 0% 60.2vw;
 }
 
 section.objetivo img {
     /* padding: 0vw 0vw 0vw 0vw; */
     /* display: none; */
-    display: flex;
-    width: 40vw;
+    display: block;
+    /* width: 40vw; */
     position: absolute;
-    top: 171vw;
-    left: 13%;
+    /* top: 171vw; */
+    left: 21%;
     /* margin-top: 10%; */
     border-radius: 6%;
+    max-width: 100%;
+    height: 18vw;
 }
 
 section.objetivo img:hover{
