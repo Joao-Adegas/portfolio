@@ -593,7 +593,12 @@ section.Projetos .flex .carrocel::-webkit-scrollbar-thumb{
 
 /*Objetivo estilo*/
 
-.interface_objetivo{width: auto;/* display: flex; */height: auto;}
+.interface_objetivo{width: auto;display: flex;height: auto;}
+
+section.objetivo{
+    padding: 15rem 0px 0px 0px;
+    display: block;
+}
 
 section.objetivo h2{
   
@@ -611,30 +616,30 @@ text-align: start;
   
 /* padding-right: 17%; */
   
-padding: 0vw 0vw 0vw 60vw;
+/* padding: 0vw 0vw 0vw 60vw; */
 }
 
 section.objetivo p{
     display: block;
     color: #ffffff;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-family: 'Poppins';
     /* text-align: left; */
-    padding: 1vw 22vw 0% 60.2vw;
+    padding: 0vw 32vw 0% 28vw;
 }
 
 section.objetivo img {
-    /* padding: 0vw 0vw 0vw 0vw; */
-    /* display: none; */
+    padding: 0vw 0vw 0vw 0vw;
     display: block;
+    /* display: block; */
     /* width: 40vw; */
-    position: absolute;
+    position: relative;
     /* top: 171vw; */
     left: 21%;
     /* margin-top: 10%; */
     border-radius: 6%;
     max-width: 100%;
-    height: 18vw;
+    height: 20vw;
 }
 
 section.objetivo img:hover{
@@ -866,7 +871,7 @@ section.TCC .resultado a{
     }
 
     section.objetivo img{
-        display: none;
+        display: flow;
         /* margin-top: 34%; */
         /* width: 57%; */
         /* margin-left: 11%; */
@@ -986,7 +991,9 @@ img {
             padding: 12vw 0% 0% 0%;
         }
 
-       
+       .interface_objetivo{
+           display:flow-root;
+       }
     
            
     }   
@@ -1031,6 +1038,10 @@ img {
             section.objetivo img {
                 margin-top: 124%;
             }
+
+            .interface_objetivo{
+                display:flow;
+            }
         }
 
         @media screen and (max-width:360px) {
@@ -1050,7 +1061,11 @@ img {
         }
 
         section.objetivo img {
-            display: none;
+            padding: 0px 0px 0px 0px;
+            left: 13vw;
+            max-width: 100vw;
+            height: auto;
+            display: flow;
             /* margin-top: 125%; */
         }
 
@@ -1062,7 +1077,7 @@ img {
 
         section.objetivo h2 {
             font-size: 1.5rem;
-            padding: 25vw 0vw 4vw 4vw;
+            padding: 10vw 0vw 4vw 4vw;
             /* padding-bottom: 128vw; */
         }
 
@@ -1070,6 +1085,10 @@ img {
             font-size: 1.5rem;
             /* padding-top: 30%; */
             padding: 85vw 5vw 4vw 5vw;
+        }
+
+        .interface_objetivo{
+            display: flow-root;
         }
 
     }
