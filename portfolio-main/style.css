@@ -10,9 +10,9 @@
 /*VARIAVEIS DE CORES*/
 
 :root{
-    --AzulClaro: #477c89 ;
-    --AzulEscuro:#020131;
-    --Background:#04080f;
+    --AzulClaro: #22788e ;
+    --AzulEscuro:#1713bf;
+    --Background:#000000;
 }
 
 body{
@@ -593,7 +593,7 @@ section.Projetos .flex .carrocel::-webkit-scrollbar-thumb{
 
 /*Objetivo estilo*/
 
-.interface_objetivo{width: auto;/* display: flex; */height: auto;}
+.interface_objetivo{padding: 10rem 0px 0px 0px;width: auto;/* display: flex; */height: auto;}
 
 section.objetivo h2{
  
@@ -628,13 +628,13 @@ section.objetivo img {
     /* display: none; */
     /* display: block; */
     /* width: 40vw; */
-    position: absolute;
-    /* top: 171vw; */
+    position: relative;
     left: 21%;
     /* margin-top: 10%; */
     border-radius: 6%;
     max-width: 100%;
     height: 18vw;
+    bottom: 16rem;
 }
 
 section.objetivo img:hover{
@@ -866,9 +866,12 @@ section.TCC .resultado a{
     }
 
     section.objetivo img{
+        left: 30vw;
+        top: 0vw;
+        height: 40vw;
         /* display: none; */
         /* margin-top: 34%; */
-        /* width: 57%; */
+        width: auto;
         /* margin-left: 11%; */
         /* padding: 11vw 0vw 0vw 16vw; */
         border-radios: 20vw;
@@ -885,7 +888,7 @@ img {
 
 
      section.objetivo p{
-        padding: 0vw 4vw 0vw 4vw;
+        padding: 0vw 4vw 11vw 4vw;
         font-size: 1rem;
     }
 
@@ -919,6 +922,10 @@ img {
     @media screen and (max-width:695px) {
 
     section.objetivo img{
+        top: -1rem;
+        position: relative;
+        width: auto;
+        height: 45vw;
         /* padding-top: 0vw; */
         /* margin-top: 54%; */
         /* padding-bottom: 0vw; */
@@ -1055,6 +1062,8 @@ img {
             display: flow;
             /* margin-top: 125%; */
             left: 18vw;
+            padding: 0px 0px 0px 0px;
+            top: 0rem;
         }
 
         .experiencia img {
