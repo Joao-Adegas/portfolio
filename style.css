@@ -593,7 +593,7 @@ section.Projetos .flex .carrocel::-webkit-scrollbar-thumb{
 
 /*Objetivo estilo*/
 
-.interface_objetivo{padding: 20rem 0px 0px 0px;width: auto;/* display: flex; */height: auto;}
+.interface_objetivo{width: auto;/* display: flex; */height: auto;}
 
 section.objetivo h2{
  
@@ -628,8 +628,8 @@ section.objetivo img {
     /* display: none; */
     /* display: block; */
     /* width: 40vw; */
-    position: relative;
-    bottom: 17vw;
+    position: absolute;
+    /* top: 171vw; */
     left: 21%;
     /* margin-top: 10%; */
     border-radius: 6%;
@@ -650,7 +650,7 @@ section.objetivo span{
 /*TCC estilo*/
 
 .TCC {
-    /* margin-top: 12%; */
+    margin-top: 12%;
     display: flex;
     padding: 10% 5%;
     color: #ffffff;
@@ -874,6 +874,9 @@ section.TCC .resultado a{
         border-radios: 20vw;
     }
 
+img {
+    width: 80vw;
+}
 
     section.objetivo h2{
         padding: 6vw 8vw;
@@ -882,13 +885,10 @@ section.TCC .resultado a{
 
 
      section.objetivo p{
-        padding: 0vw 4vw 10vw 4vw;
+        padding: 0vw 4vw 11vw 4vw;
         font-size: 1rem;
     }
 
-    .interface_objetivo{
-        padding:0px 0px 0px 0px;
-    }
 
     /*ESTILO TCC*/
 
@@ -986,9 +986,7 @@ section.TCC .resultado a{
             padding: 12vw 0% 0% 0%;
         }
 
-       .interface_objetivo{
-           padding:0px 0px 0px 0px;
-       }
+       
    
            
     }  
@@ -999,7 +997,7 @@ section.TCC .resultado a{
         }
 
         section.objetivo img {
-            /* margin-top: 125%; */
+            margin-top: 125%;
         }
 
         .experiencia img {
@@ -1031,11 +1029,7 @@ section.TCC .resultado a{
             }
 
             section.objetivo img {
-                /* margin-top: 124%; */
-            }
-
-            .interface_objetivo{
-                padding:0px 0px 0px 0px;
+                margin-top: 124%;
             }
         }
 
@@ -1062,7 +1056,7 @@ section.TCC .resultado a{
             /* margin-top: 125%; */
             left: 18vw;
             padding: 0px 0px 0px 0px;
-            top: 0rem;
+            /* top: 27rem; */
         }
 
         .experiencia img {
@@ -1083,8 +1077,5 @@ section.TCC .resultado a{
             padding: 85vw 5vw 4vw 5vw;
         }
 
-        .interface_objetivo{
-            padding: 2rem 0px 0px 0px;
-        }
     }
 }
