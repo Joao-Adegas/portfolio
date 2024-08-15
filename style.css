@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 /*VARIAVEIS DE CORES*/
@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color: var(--Background); 
+    background-color: var(--Background);
     height: 100%;
     zoom: 80%;
     max-zoom: 80%;
@@ -593,53 +593,48 @@ section.Projetos .flex .carrocel::-webkit-scrollbar-thumb{
 
 /*Objetivo estilo*/
 
-.interface_objetivo{width: auto;display: flex;height: auto;}
-
-section.objetivo{
-    padding: 15rem 0px 0px 0px;
-    display: block;
-}
+.interface_objetivo{width: auto;/* display: flex; */height: auto;}
 
 section.objetivo h2{
-  
+ 
 color: #ffffff;
-  
+ 
 /* justify-content: end; */
-  
+ 
 font-size: 50px;
-  
+ 
 font-family: 'Poppins', sans-serif;
-  
+ 
 text-align: start;
-  
+ 
 /* padding-top: 15%; */
-  
+ 
 /* padding-right: 17%; */
-  
-/* padding: 0vw 0vw 0vw 60vw; */
+ 
+padding: 0vw 0vw 0vw 60vw;
 }
 
 section.objetivo p{
     display: block;
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: 'Poppins';
     /* text-align: left; */
-    padding: 0vw 32vw 0% 28vw;
+    padding: 1vw 22vw 0% 60.2vw;
 }
 
 section.objetivo img {
-    padding: 0vw 0vw 0vw 0vw;
-    display: block;
+    /* padding: 0vw 0vw 0vw 0vw; */
+    /* display: none; */
     /* display: block; */
     /* width: 40vw; */
-    position: relative;
+    position: absolute;
     /* top: 171vw; */
     left: 21%;
     /* margin-top: 10%; */
     border-radius: 6%;
     max-width: 100%;
-    height: 20vw;
+    height: 18vw;
 }
 
 section.objetivo img:hover{
@@ -705,7 +700,7 @@ section.TCC .resultado a{
         p{
             color: transparent;
         }
-    
+   
         img{
             display: none;
         }
@@ -713,7 +708,7 @@ section.TCC .resultado a{
 }
 
 @media screen and (max-width: 1020px) {
-    
+   
     /*Header*/
     header{
         width: 92%;
@@ -785,7 +780,7 @@ section.TCC .resultado a{
     }
 
     .experiencia .flex .linguagems img{
-        
+       
     }
     .experiencia .flex img{
         width:6rem ;
@@ -871,7 +866,7 @@ section.TCC .resultado a{
     }
 
     section.objetivo img{
-        display: flow;
+        /* display: none; */
         /* margin-top: 34%; */
         /* width: 57%; */
         /* margin-left: 11%; */
@@ -926,7 +921,7 @@ img {
     section.objetivo img{
         /* padding-top: 0vw; */
         /* margin-top: 54%; */
-        padding-bottom: 0vw;
+        /* padding-bottom: 0vw; */
     }
    
     section.objetivo{
@@ -934,7 +929,7 @@ img {
     }
 
        
-    }   
+    }  
 
     @media screen and (max-width:450px) {
 
@@ -957,7 +952,7 @@ img {
         .topo-do-site .backend {
             font-size: 1rem;
         }
-        
+       
         section.experiencia p {
             font-size: 1rem;
         }
@@ -975,11 +970,11 @@ img {
             width: 90px;
             height: 55%;
         }
-        
+       
         section.TCC h2 {
             font-size: 45px;
         }
-        
+       
         section.TCC  {
             /* margin-top: 50%; */
         }
@@ -991,12 +986,10 @@ img {
             padding: 12vw 0% 0% 0%;
         }
 
-       .interface_objetivo{
-           display:flow-root;
-       }
-    
+       
+   
            
-    }   
+    }  
 
     @media screen and (max-width:375px) {
         .txt_topo_site .nome {
@@ -1038,14 +1031,10 @@ img {
             section.objetivo img {
                 margin-top: 124%;
             }
-
-            .interface_objetivo{
-                display:flow;
-            }
         }
 
         @media screen and (max-width:360px) {
-          
+         
             section.objetivo img {
                 /* margin-top: 100%; */
             }
@@ -1061,12 +1050,11 @@ img {
         }
 
         section.objetivo img {
-            padding: 0px 0px 0px 0px;
-            left: 13vw;
-            max-width: 100vw;
-            height: auto;
+            width: auto;
+            height: 59vw;
             display: flow;
             /* margin-top: 125%; */
+            left: 18vw;
         }
 
         .experiencia img {
@@ -1077,7 +1065,7 @@ img {
 
         section.objetivo h2 {
             font-size: 1.5rem;
-            padding: 10vw 0vw 4vw 4vw;
+            padding: 25vw 0vw 4vw 4vw;
             /* padding-bottom: 128vw; */
         }
 
@@ -1085,10 +1073,6 @@ img {
             font-size: 1.5rem;
             /* padding-top: 30%; */
             padding: 85vw 5vw 4vw 5vw;
-        }
-
-        .interface_objetivo{
-            display: flow-root;
         }
 
     }
