@@ -922,21 +922,11 @@ img {
 
     @media screen and (max-width:695px) {
 
-    section.objetivo img{
-        top: -1rem;
-        position: relative;
-        width: auto;
-        height: 45vw;
-        /* padding-top: 0vw; */
-        /* margin-top: 54%; */
-        /* padding-bottom: 0vw; */
-    }
-   
-    section.objetivo{
-        /* margin-top: 20%; */
-    }
-
-       
+        section.objetivo img{
+            position: relative;
+            width: auto;
+            height: 45vw;
+            }    
     }  
 
     @media screen and (max-width:450px) {
@@ -1003,11 +993,7 @@ img {
         .txt_topo_site .nome {
             font-size: 36px;
         }
-
-        section.objetivo img {
-            margin-top: 125%;
-        }
-
+        
         .experiencia img {
             padding: 40px 21px;
         }
@@ -1061,7 +1047,6 @@ img {
             width: auto;
             height: 59vw;
             display: flow;
-            /* margin-top: 125%; */
             left: 18vw;
             padding: 0px 0px 0px 0px;
             top: 0rem;
