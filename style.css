@@ -1022,9 +1022,7 @@ img {
                 font-size: 45px;
             }
 
-            section.objetivo img {
-                margin-top: 124%;
-            }
+      
         }
 
         @media screen and (max-width:360px) {
