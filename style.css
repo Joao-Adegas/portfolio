@@ -1068,5 +1068,11 @@ img {
             padding: 85vw 5vw 4vw 5vw;
         }
 
+        section.objetivo img {
+            max-width: 100%;
+            left: 0vw;
+            height: 65vw;
+        }
+
     }
 }
