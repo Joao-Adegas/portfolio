@@ -525,6 +525,10 @@ section.Projetos .flex .projetos:hover{
     color: var(--AzulClaro);
 }
 
+.Projetos h2 {
+    padding: 0px 0px 0px 30rem;
+}
+
 .Projetos .projetos img {
     padding-top: 20%;
     width: 80px;
