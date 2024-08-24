@@ -1081,7 +1081,7 @@ footer{
             height: 59vw;
             display: flow;
             left: 62px;
-            padding: 0 0 0 0;
+/*             padding: 0 0 0 0; */
             top: 0rem;
             /* justify-self: center; */
         }
