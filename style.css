@@ -155,7 +155,7 @@ section.topo_do_site .flex{
 }
 
 .teste{
-    display: block;
+    /* display: block; */
 }
 
 .txt_topo_site, .btns_contato{
@@ -602,7 +602,7 @@ section.Projetos .flex .carrocel::-webkit-scrollbar-thumb{
 
 /*Objetivo estilo*/
 
-.interface_objetivo{padding: 10rem 0px 0px 0px;width: auto;/* display: flex; */height: auto;}
+.interface_objetivo{padding: 10rem 0px 0px 0px;width: auto;display: grid;height: auto;}
 
 section.objetivo h2{
  
@@ -742,7 +742,8 @@ footer{
     /*Topo do site*/
 
     .img_topo_site img{
-        padding: 1vw 0vw 0vw 53vw;
+        justify-content: center;
+        /* padding: 0vw 0vw 0vw 24vw; */
         width: 80vw;
     }
     .flex{
@@ -881,8 +882,9 @@ footer{
     /*Estilo Objetivo*/
 
     section.objetivo{
-        display: block;
+        display: grid;
         flex-direction: column;
+        justify-items: center;
     }
 
     section.objetivo img{
@@ -952,7 +954,10 @@ footer{
     @media screen and (max-width:450px) {
 
         .img_topo_site{
-            margin-left: -6rem;
+            display: flex;
+            padding: 0 vw 0 0vw;
+            align-items: center;
+            justify-content: center;
         }
 
         .txt_topo_site .nome{
@@ -1077,6 +1082,7 @@ footer{
             left: 62px;
             padding: 0px 0px 0px 0px;
             top: 0rem;
+            justify-content: center;
         }
 
         .experiencia img {
