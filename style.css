@@ -12,7 +12,9 @@
 :root{
  --AzulClaro: #477c89 ;
     --AzulEscuro:#020131;
+    --footer:#00000c;
     --Background:#04080f;
+    
 }
 
 body{
@@ -166,7 +168,9 @@ section.topo_do_site .flex{
     /* width: 30vw; */
     /* border-radius: 5%; */
     filter: brightness(70%);
-    max-width: 90%;
+    width: auto;
+    height: auto;
+    padding: 0vw 0vw 0vw -2vw;
 }
 
 .img_topo_site img:hover{
@@ -699,20 +703,31 @@ section.TCC .resultado a{
     color:#477c89 ;
 }
 
-@media screen and (min-width:100px){
+/*FOOTER*/
 
-    section.Projetos .flex .projetos:hover{
-        p{
-            color: transparent;
-        }
-   
-        img{
-            display: none;
-        }
-    }
+footer{
+    color:white;
+    background-color:var(--footer);
+    height: 10vw;
+    text-align: center;
+    align-items: center;
+    align-content: center;
 }
 
-@media screen and (max-width: 1020px) {
+    @media screen and (min-width:100px){
+
+        section.Projetos .flex .projetos:hover{
+            p{
+                color: transparent;
+            }
+    
+            img{
+                display: none;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1020px) {
    
     /*Header*/
     header{
@@ -727,7 +742,7 @@ section.TCC .resultado a{
     /*Topo do site*/
 
     .img_topo_site img{
-        padding: 0vw 0vw 0vw 28vw;
+        padding: 1vw 0vw 0vw 53vw;
         width: 80vw;
     }
     .flex{
@@ -882,9 +897,9 @@ section.TCC .resultado a{
         border-radios: 20vw;
     }
 
-img {
-    width: 80vw;
-}
+    img {
+        width: 80vw;
+    }
 
     section.objetivo h2{
         padding: 6vw 8vw;
@@ -922,6 +937,7 @@ img {
 
     .TCC .resultado a{
         font-size: 1rem;
+    }
     }
 
     @media screen and (max-width:695px) {
@@ -988,7 +1004,16 @@ img {
             padding: 12vw 0% 0% 0%;
         }
 
-       
+        footer{
+            width: auto;
+            height: 30vw;
+        }
+
+        footer > h1{
+            font-size: 1rem;
+            word-wrap: break-word;
+            padding: 0vw 10vw;
+        }
    
            
     }  
@@ -1075,4 +1100,4 @@ img {
       
 
     }
-}
+
