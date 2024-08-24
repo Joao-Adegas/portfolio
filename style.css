@@ -1078,12 +1078,12 @@ footer{
 
         section.objetivo img {
             width: auto;
-            height: 59vw;
+            /* height: 59vw; */
             display: flow;
-            left: 62px;
-/*             padding: 0 0 0 0; */
+            /* left: 62px; */
+            padding: 0 0px 0px 0px;
             top: 0rem;
-            /* justify-self: center; */
+            justify-content: center;
         }
 
         .experiencia img {
