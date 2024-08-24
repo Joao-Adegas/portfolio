@@ -1,6 +1,7 @@
 /*ESTILO GERAL*/
 
 *{
+    /* display: grid; */
     margin: 0;
     padding: 0;
     box-sizing: 0;
@@ -633,6 +634,7 @@ section.objetivo p{
 }
 
 section.objetivo img {
+    justify-content: center;
     /* padding: 0vw 0vw 0vw 0vw; */
     /* display: none; */
     /* display: block; */
@@ -884,7 +886,6 @@ footer{
     section.objetivo{
         display: grid;
         flex-direction: column;
-        justify-items: center;
     }
 
     section.objetivo img{
@@ -945,7 +946,7 @@ footer{
     @media screen and (max-width:695px) {
 
         section.objetivo img{
-            position: relative;
+            /* position: relative; */
             width: auto;
             height: 45vw;
             }    
@@ -1080,9 +1081,9 @@ footer{
             height: 59vw;
             display: flow;
             left: 62px;
-            padding: 0px 0px 0px 0px;
+            padding: 0 0 0 0;
             top: 0rem;
-            justify-content: center;
+            /* justify-self: center; */
         }
 
         .experiencia img {
