@@ -18,7 +18,7 @@
 body{
     background-color: var(--Background);
     height: 100%;
-    zoom: 80%;
+    zoom: 75%;
     max-zoom: 80%;
 }
 
