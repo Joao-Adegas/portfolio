@@ -155,7 +155,7 @@ section.topo_do_site .flex{
 }
 
 .teste{
-    display: block;
+    /* display: block; */
 }
 
 .txt_topo_site, .btns_contato{
@@ -745,7 +745,7 @@ footer{
     /*Topo do site*/
 
     .img_topo_site img{
-        padding: 0vw 0vw 0vw 0vw;
+        /* padding: 0vw 0vw 0vw 16vw; */
         width: 80vw;
     }
     .flex{
@@ -955,8 +955,12 @@ footer{
     @media screen and (max-width:450px) {
 
         .img_topo_site{
-           display: grid;
-            justify-items: center;
+           
+display: grid;
+           
+/* justify-items: center; */
+           
+justify-content: center;
         }
 
         .txt_topo_site .nome{
