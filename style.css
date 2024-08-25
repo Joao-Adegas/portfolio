@@ -745,7 +745,7 @@ footer{
     /*Topo do site*/
 
     .img_topo_site img{
-        padding: 1vw 0vw 0vw 53vw;
+        padding: 0vw 0vw 0vw 49vw;
         width: 80vw;
     }
     .flex{
