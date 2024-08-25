@@ -632,7 +632,7 @@ padding: 0vw 0vw 0vw 60vw;
 }
 
 section.objetivo p{
-    display: block;
+/*     display: block; */
     color: #ffffff;
     font-size: 1.4rem;
     font-family: 'Poppins';
