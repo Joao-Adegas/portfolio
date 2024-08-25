@@ -745,7 +745,7 @@ footer{
     /*Topo do site*/
 
     .img_topo_site img{
-        padding: 0vw 0vw 0vw 49vw;
+        padding: 0vw 0vw 0vw 0vw;
         width: 80vw;
     }
     .flex{
@@ -955,7 +955,7 @@ footer{
     @media screen and (max-width:450px) {
 
         .img_topo_site{
-           padding: 0px 42vw 0px 0px;
+           
         }
 
         .txt_topo_site .nome{
