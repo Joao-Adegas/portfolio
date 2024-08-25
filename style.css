@@ -955,7 +955,7 @@ footer{
     @media screen and (max-width:450px) {
 
         .img_topo_site{
-            margin-left: -6rem;
+           padding: 0px 42vw 0px 0px;
         }
 
         .txt_topo_site .nome{
