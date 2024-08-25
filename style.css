@@ -605,7 +605,12 @@ section.Projetos .flex .carrocel::-webkit-scrollbar-thumb{
 
 /*Objetivo estilo*/
 
-.interface_objetivo{padding: 10rem 0px 0px 0px;width: auto;/* display: flex; */height: auto;}
+.interface_objetivo{
+    padding: 10rem 0px 0px 0px;
+    width: auto;
+    display: flow;
+    height: auto;
+}
 
 section.objetivo h2{
  
@@ -884,7 +889,7 @@ footer{
     /*Estilo Objetivo*/
 
     section.objetivo{
-        display: block;
+        display: grid;
         flex-direction: column;
     }
 
@@ -1080,11 +1085,11 @@ justify-content: center;
 
         section.objetivo img {
             width: auto;
-            height: 59vw;
+/*             height: 59vw; */
             display: flow;
-            left: 62px;
+/*             left: 62px; */
             padding: 0px 0px 0px 0px;
-            top: 0rem;
+/*             top: 0rem; */
         }
 
         .experiencia img {
