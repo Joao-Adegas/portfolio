@@ -885,7 +885,7 @@ footer{
 
     section.objetivo{
         /* display: grid; */
-        flex-direction: column;
+/*         flex-direction: column; */
     }
 
     section.objetivo img{
