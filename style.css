@@ -1,7 +1,6 @@
 /*ESTILO GERAL*/
 
 *{
-    /* display: grid; */
     margin: 0;
     padding: 0;
     box-sizing: 0;
@@ -156,7 +155,7 @@ section.topo_do_site .flex{
 }
 
 .teste{
-    /* display: block; */
+    display: block;
 }
 
 .txt_topo_site, .btns_contato{
@@ -521,6 +520,9 @@ section.Projetos .flex .projetos:hover{
 #projeto3:hover{
     background-image: url('./imagens/BancoJava.png');
 }
+#projeto4:hover{
+    background-image: url('./imagens/Imagem\ do\ WhatsApp\ de\ 2024-08-24\ à\(s\)\ 23.12.57_7f4f4290.jpg');
+}
 
 
 
@@ -603,7 +605,7 @@ section.Projetos .flex .carrocel::-webkit-scrollbar-thumb{
 
 /*Objetivo estilo*/
 
-.interface_objetivo{padding: 10rem 0px 0px 0px;width: auto;display: grid;height: auto;}
+.interface_objetivo{padding: 10rem 0px 0px 0px;width: auto;/* display: flex; */height: auto;}
 
 section.objetivo h2{
  
@@ -634,7 +636,6 @@ section.objetivo p{
 }
 
 section.objetivo img {
-    justify-content: center;
     /* padding: 0vw 0vw 0vw 0vw; */
     /* display: none; */
     /* display: block; */
@@ -744,8 +745,7 @@ footer{
     /*Topo do site*/
 
     .img_topo_site img{
-        justify-content: center;
-        /* padding: 0vw 0vw 0vw 24vw; */
+        padding: 1vw 0vw 0vw 53vw;
         width: 80vw;
     }
     .flex{
@@ -884,7 +884,7 @@ footer{
     /*Estilo Objetivo*/
 
     section.objetivo{
-        display: grid;
+        display: block;
         flex-direction: column;
     }
 
@@ -946,7 +946,7 @@ footer{
     @media screen and (max-width:695px) {
 
         section.objetivo img{
-            /* position: relative; */
+            position: relative;
             width: auto;
             height: 45vw;
             }    
@@ -955,10 +955,7 @@ footer{
     @media screen and (max-width:450px) {
 
         .img_topo_site{
-            display: flex;
-            padding: 0 vw 0 0vw;
-            align-items: center;
-            justify-content: center;
+            margin-left: -6rem;
         }
 
         .txt_topo_site .nome{
@@ -1078,12 +1075,11 @@ footer{
 
         section.objetivo img {
             width: auto;
-            /* height: 59vw; */
+            height: 59vw;
             display: flow;
-            /* left: 62px; */
-            padding: 0 0px 0px 0px;
+            left: 62px;
+            padding: 0px 0px 0px 0px;
             top: 0rem;
-            justify-content: center;
         }
 
         .experiencia img {
