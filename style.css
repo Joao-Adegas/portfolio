@@ -605,7 +605,7 @@ section.Projetos .flex .carrocel::-webkit-scrollbar-thumb{
 
 /*Objetivo estilo*/
 
-.interface_objetivo{padding: 10rem 0px 0px 0px;width: auto;display: grid;height: auto;justify-items: center;}
+.interface_objetivo{padding: 10rem 0px 0px 0px;width: auto;display: flex;height: auto;justify-items: center;flex-wrap: wrap;}
 
 section.objetivo h2{
  
@@ -641,12 +641,12 @@ section.objetivo img {
     /* display: block; */
     /* width: 40vw; */
     position: relative;
-    /* left: 21%; */
+    left: 21%;
     /* margin-top: 10%; */
     border-radius: 6%;
     max-width: 100%;
     height: 18vw;
-    /* bottom: 16rem; */
+    bottom: 16rem;
 }
 
 section.objetivo img:hover{
@@ -889,7 +889,7 @@ footer{
     }
 
     section.objetivo img{
-        /* left: 30vw; */
+        left: 0vw;
         top: 0vw;
         height: 40vw;
         /* display: none; */
@@ -908,7 +908,9 @@ footer{
         padding: 6vw 8vw;
     }
 
-
+    .interface_objetivo{
+        display:grid;
+    }
 
      section.objetivo p{
         padding: 0vw 4vw 11vw 4vw;
