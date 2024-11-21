@@ -20,7 +20,7 @@
 body{
     background-color: var(--Background);
     height: 100%;
-    zoom: 75%;
+    zoom: 70%;
     max-zoom: 80%;
 }
 
@@ -533,7 +533,7 @@ section.Projetos .flex .projetos:hover{
 }
 
 .Projetos h2 {
-    padding: 3vw 0px 0px 30rem;
+    padding: 3vw 0px 0px 17rem;
 }
 
 .Projetos .projetos img {
@@ -549,7 +549,7 @@ section.Projetos .flex .projetos:hover{
     width: 50px;
     text-decoration: none;
     border-bottom: none;
-    padding: 0px 0px 0px 30rem;
+    padding: 0px 0px 0px 17rem;
     /* padding-left: 100px; */
     /* padding-right: 100px; */
 }
